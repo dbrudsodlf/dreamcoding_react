@@ -1,38 +1,85 @@
-.App {
+.orange {
+  color: orange;
+}
+
+.profile {
+  position: relative;
+  width: 300px;
   text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 27px 24px 43px -7px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 27px 24px 43px -7px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 27px 24px 43px -7px rgba(0, 0, 0, 0.63);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.new{
+  position: absolute;
+  left: 70%;
+  background-color: aquamarine;
+  padding: 0 5px 5px;
+  border-radius: 40%;
+}
+
+.container{
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.banner{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(255, 204, 0);
+  font-weight: bold;
+  width:50%;
 }
 
-.App-link {
-  color: #61dafb;
+.counters{
+  width: 50%;
+}
+.calculate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(255, 204, 0);
+  border-radius: 10px;
+  margin:20px 0;
+  width: 100%;
+  padding: 20px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calculate:hover{
+  background-color:rgb(255, 255, 205);
+}
+
+.num{
+  font-size: 60px;
+}
+
+.btn{
+  font-weight: bold;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background:linear-gradient(90deg,rgb(255, 204, 0),rgb(255, 255, 205))
+}
+
+.total{
+  font-size: 1rem;
 }
